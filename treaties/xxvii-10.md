@@ -2,4 +2,5 @@
 Adopted: Paris, 14 October 1994
 Depositary: Secretary-General of the United Nations
 Signature: 14 October 1994
+Ratification: 3 March 1998
 Source: https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=XXVII-10&clang=_en
