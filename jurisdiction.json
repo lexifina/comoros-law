@@ -1,0 +1,10 @@
+{
+  "path": "km",
+  "code": "KM",
+  "name": "Comoros",
+  "level": "country",
+  "repo": "https://github.com/lexifina/comoros-law",
+  "build": "built: metadata only, no law text (Wikidata facts, UN and WIPO treaty actions, WIPO Lex law catalogue)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28"
+}
