@@ -61,6 +61,7 @@ Each UN treaty action is credited to the action (`Ratification: Convention on th
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before and compares it with the corpus, whose hash is in `data/corpus.sha256`; it also checks that every commit's trailers parse, that `main` has no merge commits and that no commit is dated in the future. [`REPRODUCE.md`](REPRODUCE.md) records 79 versions read back with no mismatch.
 - `tools/build.py` writes the history from that one corpus file, and the same corpus gives the same commit hashes; no second build has been compared yet.
 - Only facts are taken from the sources: each file holds a name, dates and the page they came from, and no text of any law or treaty.
+- [vulnerabilities/](vulnerabilities/): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -82,6 +83,10 @@ Each UN treaty action is credited to the action (`Ratification: Convention on th
 See [`LICENSE`](LICENSE). The Wikidata facts are CC0 1.0; from the UN Treaty Collection only facts are taken, the treaty names and the dates of treaty actions, credited to its status pages; WIPO Lex content is under CC BY 4.0, and only facts are copied from it. Lexifina's history, commit messages, tables and tools are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text; the scripts were written by an AI model, and no model runs when the history is built (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/): charts drawn from this repository. Not drawn yet.
 
 ## More
 
